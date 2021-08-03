@@ -17,12 +17,12 @@ def ExecuteAlgebra(num):
     while num != 1:
         if(num % 2 == 0):
             num /= 2
-            print(num)
             steps += 1
+            #print(num)
         else:
             num = ((num * 3) + 1)
-            print(num)
             steps += 1
+            #print(num)
     print(f"Starting Number: {starting_num}, No. Steps: {steps}")
 
 def ExecuteProblem():
@@ -32,4 +32,4 @@ def ExecuteProblem():
 
 ExecuteProblem()
 
-#ExecuteAlgebra(17)
+
