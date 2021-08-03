@@ -1,5 +1,5 @@
 
-# Running through the first 100 numbers of the 3x + 1 Algebra
+# Running through the first 10000 numbers of the 3x + 1 Algebra
 # - If the number is odd, then multiply by (3x+1)
 # - If the number is even, the divide by 2
 # - Stop when the number reaches 1
@@ -8,7 +8,7 @@
 # Scientist have worked out that atleast the very first 2^68 digits all reolve to the number loop of "-> 4 -> 2 -> 1 -> 4...",
 # but it has not been proven yet if this exists for all numbers
 
-# Here, I am just running through the first 100 digits as an exercise while learning Python
+# Here, I am just running through the first 10000 digits as an exercise while learning Python
 
 def ExecuteAlgebra(num):
     starting_num = num
@@ -29,7 +29,7 @@ def ExecuteAlgebra(num):
     print(f"Starting Number: {starting_num}, No. Steps: {steps}")
 
 def ExecuteProblem():
-    for number in range(1, 101):
+    for number in range(1, 10001):
         ExecuteAlgebra(number)
 
 
