@@ -4,7 +4,7 @@ If the number is even, then divide by 2.
 Stop when the number reaches 1
  - when a number reaches 1, it enters an infinite loop of "1 -> 4 -> 2 -> 1 -> 4..."
 
-Scientist have worked out that atleast the very first 2^68 digits all reolve to the number loop of "-> 4 -> 2 -> 1 -> 4...",
+Scientist have worked out that atleast the very first 2^68 digits all resolve to the number loop of "-> 4 -> 2 -> 1 -> 4...",
 but it has not been proven yet if this exists for all numbers
 
 Here, I am just running through the first 10,000 digits as an exercise while learning Python
